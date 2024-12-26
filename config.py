@@ -10,7 +10,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #force user to join your backup channel leave 0 if you don't need.
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002233704279"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002363099938"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002268663826"))
 
 if FORCE_SUB_CHANNEL > FORCE_SUB_CHANNEL2:
@@ -88,15 +88,15 @@ UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", " @owner_details OR tinyurl.com/
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/supplywala_support_bot")
 #Time and its price
 #7 Days
-PRICE1 = os.environ.get("PRICE1", "₹30 / 0.5$")
+PRICE1 = os.environ.get("PRICE1", "₹40 / 0.5$")
 #1 Month
-PRICE2 = os.environ.get("PRICE2", "₹109 / 1.5$")
+PRICE2 = os.environ.get("PRICE2", "₹119 / 1.5$")
 #3 Month
-PRICE3 = os.environ.get("PRICE3", "₹299 / 3.6$")
+PRICE3 = os.environ.get("PRICE3", "₹289 / 3.6$")
 #6 Month
 PRICE4 = os.environ.get("PRICE4", "₹549 / 6.6$")
 #1 Year
-PRICE5 = os.environ.get("PRICE5", "₹799 / 9.6$")
+PRICE5 = os.environ.get("PRICE5", "₹789 / 9.6$")
 
 
 
