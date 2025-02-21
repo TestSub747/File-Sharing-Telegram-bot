@@ -10,8 +10,8 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #force user to join your backup channel leave 0 if you don't need.
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002448278908"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002489765554"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002465334350"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002291502234"))
 
 if FORCE_SUB_CHANNEL > FORCE_SUB_CHANNEL2:
     temp = FORCE_SUB_CHANNEL2 
@@ -21,7 +21,7 @@ if FORCE_SUB_CHANNEL > FORCE_SUB_CHANNEL2:
 #bot stats
 BOT_STATS_TEXT = os.environ.get("BOTS_STATS_TEXT","<b>BOT UPTIME </b>\n{uptime}")
 #send custom message when user interact with bot
-USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "ONLY ADMIN CAN ACCESS ! <b>Want To Create Your Private File Share Bot ? Contact @hf_owner !</b>")
+USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "🔒 ONLY ADMIN CAN ACCESS! 🔒\n🚀 Want to create your own private file-sharing bot?\n📩 Contact: @hf_owner\n📢 Channel: @hacking_freak</b>")
 
 #your bot token here from https://telegram.me/BotFather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "") 
@@ -30,7 +30,7 @@ APP_ID = int(os.environ.get("APP_ID", "20202379"))
 #your api hash from https://my.telegram.org/apps
 API_HASH = os.environ.get("API_HASH", "cb1d30a2facf3a1d5691fe3dbe8e8482")
 #your channel_id from https://t.me/MissRose_bot by forwarding dummy message to rose and applying command `/id` in reply to that message
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002305123876"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002433429310"))
 #your id of telegram can be found by https://t.me/MissRose_bot with '/id' command
 OWNER_ID = int(os.environ.get("OWNER_ID", "7590766084"))
 #port set to default 8080
@@ -43,7 +43,7 @@ DB_NAME = os.environ.get("DB_NAME", "filestorebot")
 #for creating telegram thread for bot to improve performance of the bot
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "60"))
 #your start default command message.
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link. ")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}! 👋\nI can securely store private files in a specified channel, allowing other users to access them through a special link.\n🚀 Created By: @hacking_freak")
 #your telegram tag without @
 OWNER_TAG = os.environ.get("OWNER_TAG", "@otpkaseller")
 #Time in seconds for message delete, put 0 to never delete
