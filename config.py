@@ -88,15 +88,16 @@ UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", " @owner_details ")
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/supplywalah_support_bot")
 #Time and its price
 #7 Days
-PRICE1 = os.environ.get("PRICE1", "₹40 / 0.5$")
+PRICE1 = os.environ.get("PRICE1", "₹199 / 3$")
 #1 Month
-PRICE2 = os.environ.get("PRICE2", "₹119 / 1.5$")
+PRICE2 = os.environ.get("PRICE2", "₹399 / 5$")
 #3 Month
-PRICE3 = os.environ.get("PRICE3", "₹289 / 3.6$")
+PRICE3 = os.environ.get("PRICE3", "₹299 / 3.7$")
 #6 Month
-PRICE4 = os.environ.get("PRICE4", "₹549 / 6.6$")
+PRICE4 = os.environ.get("PRICE4", "₹349 / 4.5$")
 #1 Year
-PRICE5 = os.environ.get("PRICE5", "₹789 / 9.6$")
+PRICE5 = os.environ.get("PRICE5", "₹499 / 6.2$")
+
 
 
 
