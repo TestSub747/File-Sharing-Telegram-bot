@@ -10,7 +10,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #force user to join your backup channel leave 0 if you don't need.
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002465334350"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002280762224"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002291502234"))
 
 if FORCE_SUB_CHANNEL > FORCE_SUB_CHANNEL2:
@@ -83,9 +83,9 @@ USE_PAYMENT = True if (True if os.environ.get("USE_PAYMENT", "TRUE") == "TRUE" e
 #UPI ID
 UPI_ID = os.environ.get("UPI_ID", " TRY QR CODE FOR MOW ")
 #UPI QR CODE IMAGE
-UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", " @owner_details OR tinyurl.com/QrPayHere")
+UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", " @owner_details ")
 #SCREENSHOT URL of ADMIN for verification of payments
-SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/supplywala_support_bot")
+SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/supplywalah_support_bot")
 #Time and its price
 #7 Days
 PRICE1 = os.environ.get("PRICE1", "₹40 / 0.5$")
@@ -103,7 +103,7 @@ PRICE5 = os.environ.get("PRICE5", "₹789 / 9.6$")
 #force message for joining the channel
 FORCE_MSG = os.environ.get("FORCE_MSG", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b> 🥺")
 #custom caption 
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "Uploaded By @Supplywalah")
 #protected content so that no files can be sent from the bot to anyone. recommended False
 # TRUE for yes FALSE if no
 PROTECT_CONTENT = True if os.environ.get("PROTECT_CONTENT", "TRUE") == "TRUE" else False
