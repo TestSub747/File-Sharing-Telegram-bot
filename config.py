@@ -81,9 +81,9 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/openshort_links/12")
 #put TRUE if you want this feature
 USE_PAYMENT = True if (True if os.environ.get("USE_PAYMENT", "TRUE") == "TRUE" else False) and (USE_SHORTLINK) else False
 #UPI ID
-UPI_ID = os.environ.get("UPI_ID", " TRY QR CODE FOR MOW ")
+UPI_ID = os.environ.get("UPI_ID", " TRY QR CODE FOR NOW ")
 #UPI QR CODE IMAGE
-UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", " @owner_details ")
+UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", " t.me/owner_details ")
 #SCREENSHOT URL of ADMIN for verification of payments
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/supplywalah_support_bot")
 #Time and its price
