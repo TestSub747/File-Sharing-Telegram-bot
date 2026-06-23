@@ -47,11 +47,11 @@ DB_NAME = os.environ.get("DB_NAME", "filestorebot")
 #for creating telegram thread for bot to improve performance of the bot
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "60"))
 #your start default command message.
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}! 👋\nI can securely store private files in a specified channel, allowing other users to access them through a special link.\n🚀 Created By: @hacking_freak")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}! 👋\nI can securely store private files in a specified channel, allowing other users to access them through a special link.")
 #your telegram tag without @
 OWNER_TAG = os.environ.get("OWNER_TAG", "@otpkaseller")
 #Time in seconds for message delete, put 0 to never delete
-TIME = int(os.environ.get("TIME", "300"))
+TIME = int(os.environ.get("TIME", "1200"))
 
 
 #Shortner (token system) 
